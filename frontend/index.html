@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Student Attendance System</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Student Attendance System</h1>
+
+    <div class="card">
+      <h2>Add Student</h2>
+      <input type="text" id="name" placeholder="Student Name" />
+      <input type="email" id="email" placeholder="Email Address" />
+      <button onclick="addStudent()">➕ Add Student</button>
+    </div>
+
+    <div class="card">
+      <h2>Student List</h2>
+      <div class="student-list" id="studentList"></div>
+    </div>
+
+    <div class="card">
+      <h2>Mark Attendance</h2>
+      <input type="number" id="attendId" placeholder="Student ID" />
+      <input type="date" id="date" />
+      <select id="present">
+        <option value="true">Present</option>
+        <option value="false">Absent</option>
+      </select>
+      <button onclick="markAttendance()">📝 Mark Attendance</button>
+    </div>
+
+    <div class="card">
+      <h2>Attendance Records</h2>
+      <div style="overflow-x:auto">
+        <table id="pivotTable"></table>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

@@ -74,12 +74,11 @@ http://localhost:5500
 
 ---
 ## 🧪 Output of Spring Tool
-  C:\Users\admin\Desktop\outputs\backend.png
+ <img width="960" height="540" alt="Image" src="https://github.com/user-attachments/assets/47218cf1-f73b-420a-abe0-36ecbcbf723e" />
 
 
 
 ## 🧪 Tested Using Postman
-<img src="C:\Users\admin\Desktop\outputs\postman.png" />
 
 
 

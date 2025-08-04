@@ -85,7 +85,7 @@ http://localhost:5500
 
 
 ## 📸 Final Web Interface (Frontend)
-<img src="C:\Users\admin\Desktop\outputs\frontend.png" />
+<img width="960" height="540" alt="Image" src="https://github.com/user-attachments/assets/8197cb69-6e4e-43af-934a-ad2ae16d2493" />
 
 
 

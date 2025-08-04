@@ -61,80 +61,67 @@ A simple and beginner-friendly RESTful backend application to manage student att
   OR run it from *Eclipse STS* as Spring Boot App
 ---
 ### 🌐 Step 2: Frontend (HTML + CSS + JS)
-Open a terminal in the folder containing your index.html.
----
-Run a simple web server (for CORS support):
-python -m http.server 5500
----
-Open your browser and go to:
-http://localhost:5500
----
-🔗 Ensure backend server is running at http://localhost:8083
----
-### 📡 REST API Endpoints
-## 👨‍🎓 Student APIs
-Method	Endpoint	Description
-GET	/students	Get all students
-GET	/students/{id}	Get a student by ID
-POST	/students	Add a new student
-PUT	/students/{id}	Update student details
-DELETE	/students/{id}	Delete a student
 
-## 📋 Attendance APIs
-Method	Endpoint	Description
-POST	/attendance	Mark attendance
-GET	/attendance	List all attendance records
-GET	/attendance/{id}	Get specific attendance by ID
-PUT	/attendance/{id}	Update an attendance record
-DELETE	/attendance/{id}	Delete attendance record
-GET	/attendance/pivot	Get pivot-style attendance summary
+1.Open a terminal in the folder containing your index.html.
+
+2.Run a simple web server (for CORS support):
+python -m http.server 5500
+
+3.Open your browser and go to:
+http://localhost:5500
+
+🔗 Ensure backend server is running at http://localhost:8083
+
+---
+## 🧪 Output of Spring Tool
+<img src="C:\Users\admin\Desktop\outputs\backend.png"/>
+
+
+
 
 ## 🧪 Tested Using Postman
-<img width="1013" alt="postman-add-student" src="https://github.com/user-attachments/assets/example1.png" /> <img width="980" alt="postman-attendance" src="https://github.com/user-attachments/assets/example2.png" />
+<img src="C:\Users\admin\Desktop\outputs\postman.png" />
+
+
+
+
 
 ## 📸 Final Web Interface (Frontend)
-<img width="1886" alt="pivot-table" src="https://github.com/user-attachments/assets/example3.png" /> <img width="1881" alt="form-entry" src="https://github.com/user-attachments/assets/example4.png" />
+<img src="C:\Users\admin\Desktop\outputs\frontend.png" />
+
 
 
 ---
 ## 📦 Dependencies (Maven)
 Add the following dependencies in your pom.xml:
+```
 <dependencies>
-    <!-- Spring Boot Starter for RESTful APIs -->
-    <dependency>
-        <groupId>org.springframework.boot</groupId>
-        <artifactId>spring-boot-starter-web</artifactId>
-    </dependency>
-
-    <!-- Spring Boot Starter for JPA and Hibernate -->
-    <dependency>
-        <groupId>org.springframework.boot</groupId>
-        <artifactId>spring-boot-starter-data-jpa</artifactId>
-    </dependency>
-
-    <!-- PostgreSQL JDBC Driver -->
-    <dependency>
-        <groupId>org.postgresql</groupId>
-        <artifactId>postgresql</artifactId>
-        <scope>runtime</scope>
-    </dependency>
-
-    <!-- Spring Boot DevTools (optional, for live reload) -->
-    <dependency>
-        <groupId>org.springframework.boot</groupId>
-        <artifactId>spring-boot-devtools</artifactId>
-        <scope>runtime</scope>
-        <optional>true</optional>
-    </dependency>
-
-    <!-- Spring Boot Starter for Tests -->
-    <dependency>
-        <groupId>org.springframework.boot</groupId>
-        <artifactId>spring-boot-starter-test</artifactId>
-        <scope>test</scope>
-    </dependency>
-</dependencies>
-
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-data-jpa</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-web</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-devtools</artifactId>
+			<scope>runtime</scope>
+			<optional>true</optional>
+		</dependency>
+		<dependency>
+			<groupId>org.postgresql</groupId>
+			<artifactId>postgresql</artifactId>
+			<scope>runtime</scope>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-test</artifactId>
+			<scope>test</scope>
+		</dependency>
+	</dependencies>
+```
 ---
 
 ## 👩‍💻 Author
@@ -147,6 +134,6 @@ supriyaawatade1205@email.com
 GitHub:-
 https://github.com/Supriya-Awatade
 
-
+---
 
 

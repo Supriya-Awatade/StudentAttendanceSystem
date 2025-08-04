@@ -80,7 +80,7 @@ http://localhost:5500
 
 ## 🧪 Tested Using Postman
 
-
+<img width="960" height="540" alt="Image" src="https://github.com/user-attachments/assets/028de5b0-e10b-46ac-bd94-78a3922cdba4" />
 
 
 

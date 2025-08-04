@@ -74,8 +74,7 @@ http://localhost:5500
 
 ---
 ## 🧪 Output of Spring Tool
-<img src="C:\Users\admin\Desktop\outputs\backend.png"/>
-
+  C:\Users\admin\Desktop\outputs\backend.png
 
 
 
